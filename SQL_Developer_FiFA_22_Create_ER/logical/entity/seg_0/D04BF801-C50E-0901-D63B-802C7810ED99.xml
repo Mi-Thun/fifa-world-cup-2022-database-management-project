@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D04BF801-C50E-0901-D63B-802C7810ED99" name="plr_stat_mach">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:51:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="plr_stat_id" id="86FD42F9-811D-D0BF-0E9F-40641D55A622">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-18 20:11:23 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="match_id" id="BBB64AD7-C67B-5742-E915-90E6DF488E4F">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 17:39:58 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skills" id="A7F93237-49B7-B7D5-A272-EB5C5A019EA6">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:51:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weak_foot" id="7D41E6BA-9A5D-FCDB-98D7-1FFF71B34B4E">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:51:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="move_skill" id="5C0DC98F-5EC1-2B72-AF00-21DC1D6B1D97">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 15:44:15 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="goal" id="F939325F-384B-32BB-2D44-A5AC4FA07D6B">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-17 15:22:36 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assist" id="CDD0C5A4-001C-C316-CCAC-F718162B78CB">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-17 15:22:36 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="yello_card" id="DF48192E-7056-AD3B-497C-93ED8767D8A6">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-17 15:22:36 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="red_card" id="FFD1AFA1-BA10-4F25-C98C-D8F196468490">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-17 15:30:20 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pass" id="969026D1-7042-0817-3B6F-E3056AE996C6">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-17 15:30:56 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="players_id" id="DD5E45FB-3C4A-0750-AB65-73672BCF691E">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 13:39:37 UTC</createdTime>
+<generatorID>A6CE5BF6-4F88-4DCB-60C8-79D673002F36</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<referedAttribute>CEE82E10-BA03-D053-D8E3-00822DF5AA01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45AF417F-B9D9-74F0-EDF5-5795FB4D9421" name="player_stat PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 18:24:32 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86FD42F9-811D-D0BF-0E9F-40641D55A622</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E24A1D-2291-37DA-4B41-5573EA7866C5" name="Venu">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:57:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Venu_id" id="EB72E8F2-FC7F-D927-9EB7-D251A282B2BD">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:57:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stadium_Name" id="C757F3AB-D1AE-52C7-7994-528BE566415E">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:57:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacity" id="9989B5E5-C689-F234-9755-AD33D1CD1BCF">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:57:57 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city_name" id="0170D4B2-1168-E8CC-2DB6-01B85199A3DA">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:59:41 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_name" id="1EFF18FB-614F-91A0-A450-38192B1CEABB">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 09:59:22 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33D6278D-5DF5-DFE0-7B40-77D5DAF0C275" name="Venu PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 10:00:04 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB72E8F2-FC7F-D927-9EB7-D251A282B2BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

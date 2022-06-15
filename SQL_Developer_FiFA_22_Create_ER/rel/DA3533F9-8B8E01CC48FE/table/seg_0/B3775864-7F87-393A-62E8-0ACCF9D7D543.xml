@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3775864-7F87-393A-62E8-0ACCF9D7D543" name="players">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>D9559FF6-B726-E43E-BF37-C21AC809A586</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="players_id" id="BD6508F1-07A1-4F15-3524-CCB329F0581A">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>CEE82E10-BA03-D053-D8E3-00822DF5AA01</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_name" id="ACD21FB9-4627-D938-CF12-F9359C81F615">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>EFFC6454-2670-55CE-E378-69971F02DBEE</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_age" id="E73F4F59-69A7-0D10-3B17-BC64EE0C4A85">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>BA002106-F8D2-D735-01DF-DA70FEB115F4</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_country" id="59BA34DD-0A87-D1BE-4E0F-5675107F7730">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>75DB8708-3908-E8FA-515B-98F72AE80A10</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preferred_position" id="DCB62D51-E0FC-F76F-8457-3B30EEB01841">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>228F0E26-4781-1583-752C-F47570DF699C</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="height" id="D965E087-C6C4-6FAF-114C-A6538DD90624">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>D761B126-51C0-9B9F-3E6E-B3AED83AD5B3</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="FE836F4E-4A51-F7A8-F141-056F2FCE97F4">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>23CD9B99-EF08-30AB-4389-E6E13483FEBD</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sepcilality" id="D7EC5BD7-6996-E99F-E6C7-FDB47FCF3FB4">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>F8BBE50C-10FD-6624-3745-97C4B139C001</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_team_id" id="3B43A5AE-0164-23FC-98C7-73633F2599DE">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>E379221A-76CF-BA63-B7F8-764396294544</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0B6488B-D86D-315A-1F71-03CAA998883D" referredColumn="20A9D3EE-42E9-6FD1-942C-B19EFDCB0521"/>
+</associations>
+</Column>
+<Column name="player_img" id="4EAD26C8-483C-409A-D9F7-0EF888071771">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>3A684AA6-C278-591A-C631-36050865350C</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5082EFFF-0D0C-A5B7-8D01-CC12C6D3A77B" name="players_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>AF848183-EBF7-0F3D-C299-08300726183B</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD6508F1-07A1-4F15-3524-CCB329F0581A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2442074-2F87-C8A0-0792-3AA9E5A08D26" name="players_Team_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>63F49584-2A3D-721E-6614-DA237A7F5554</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B43A5AE-0164-23FC-98C7-73633F2599DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

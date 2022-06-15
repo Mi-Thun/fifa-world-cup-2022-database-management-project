@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="245FCB0D-1C01-B0C4-63BA-12098FDFDD51" containerWithKeyObject="993BC5B5-B17C-D302-728E-F539F35C7A27" localFKIndex="EACF5FD2-0452-B970-4FB6-DB067007D419" name="jersey_Team_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>C3A167FB-2AE4-25D9-D9DD-CA907449B0EB</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>Team</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E6A6537F-7842-6C60-C26E-660179D64A97</referredTableID>
+<keyObject>FA44D6AE-78CC-71BF-D128-8367C7965942</keyObject>
+<referredKeyID>FA44D6AE-78CC-71BF-D128-8367C7965942</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>team_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

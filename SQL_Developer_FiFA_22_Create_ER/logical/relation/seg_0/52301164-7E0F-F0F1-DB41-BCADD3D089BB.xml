@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="masc_team" directorySegmentName="seg_0" id="52301164-7E0F-F0F1-DB41-BCADD3D089BB">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-18 17:08:06 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<sourcePk>6A68C858-4E62-1F7C-F59A-65CDF308085F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9A976B7B-6A0B-B908-163C-79065C85996F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6675B45E-24C8-5B01-5C47-E5EB2E2E350D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

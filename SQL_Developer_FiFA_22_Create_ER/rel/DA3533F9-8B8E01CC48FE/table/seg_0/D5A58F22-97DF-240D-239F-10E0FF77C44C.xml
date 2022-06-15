@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5A58F22-97DF-240D-239F-10E0FF77C44C" name="award">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>4044EBDA-F19D-58A0-1BEC-1494EAE431FA</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="award_id" id="9565954F-6259-48FA-04A6-6072A91C8A3F">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>9B2670F4-0D99-59CA-484A-DC38B7E8C3A2</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="award_type" id="7A17797C-6B6D-C462-125B-46F2537DC5BB">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>3B6DE4A4-0BD9-CC48-57C2-8103BD935371</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_id" id="E4B3AED3-A2C6-4283-126E-10C2F2FFA318">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>9F3F42C3-BCB1-29A7-446C-CC7007B9E9D8</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="World_Cup_WorldCup_year" id="BE0CEE77-7BEE-39AA-0443-7E990A6E05F3">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>CEF81760-094B-F741-0EB6-D4E0C59EDE2B</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88FB5C7D-1916-80F2-D6D7-8C6CD1711485" referredColumn="75A70165-55FD-074F-0C39-9A02B2EC4CD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="323FC8CD-B023-5C31-E835-45D31333D7CD" name="award_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>AD28BB70-529D-7DD8-C493-96826CBDF1A9</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9565954F-6259-48FA-04A6-6072A91C8A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7D6DCA-6878-7260-BB29-88587E870E75" name="award_World_Cup_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>E68A171A-32FC-5D46-3795-DC04FCC282A7</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE0CEE77-7BEE-39AA-0443-7E990A6E05F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

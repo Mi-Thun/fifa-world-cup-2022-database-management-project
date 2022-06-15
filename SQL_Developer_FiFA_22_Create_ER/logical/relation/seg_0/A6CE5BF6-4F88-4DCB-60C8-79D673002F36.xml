@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="player_pstat" directorySegmentName="seg_0" id="A6CE5BF6-4F88-4DCB-60C8-79D673002F36">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 13:39:37 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<sourcePk>AF848183-EBF7-0F3D-C299-08300726183B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9559FF6-B726-E43E-BF37-C21AC809A586</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D04BF801-C50E-0901-D63B-802C7810ED99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

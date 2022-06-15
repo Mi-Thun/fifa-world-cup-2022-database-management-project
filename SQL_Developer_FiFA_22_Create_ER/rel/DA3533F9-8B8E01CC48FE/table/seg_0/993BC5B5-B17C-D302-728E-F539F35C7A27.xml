@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="993BC5B5-B17C-D302-728E-F539F35C7A27" name="jersey">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>D34F3638-591E-DE15-2CBF-0B5D6F4B8F26</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jersey_num" id="7988F5E3-A1ED-3A37-827F-FCA533ADA9F4">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>EC652E61-7BED-90C4-DD63-05DC2C7D5989</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jersey_Colour" id="87D1952A-DC1E-5882-5BC1-2EC77259E057">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>13F8D839-0859-C635-D62A-8662BEE3D644</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jersey_sponsor" id="653F215D-D76A-F722-FC94-79DAE5597CD5">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>6BFA010A-98C7-4A2A-3AD3-08CF6C69FAFD</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_team_id" id="13633E44-AAF0-9888-6FDF-C8B851D242A9">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>85EBDDFC-1108-2554-2875-F3A236518CD8</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="245FCB0D-1C01-B0C4-63BA-12098FDFDD51" referredColumn="20A9D3EE-42E9-6FD1-942C-B19EFDCB0521"/>
+</associations>
+</Column>
+<Column name="Jersey_img" id="A3E5CF7B-E710-60EA-BED9-478092757A89">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>AC7B053C-EA38-D5C9-1A7C-E2191D28E96D</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D91A442-59B8-F967-776B-D3E9325083A7" name="jersey_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>47059D10-2726-CF67-92C8-2FD9BC5C92FD</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7988F5E3-A1ED-3A37-827F-FCA533ADA9F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EACF5FD2-0452-B970-4FB6-DB067007D419" name="jersey_Team_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>C3A167FB-2AE4-25D9-D9DD-CA907449B0EB</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13633E44-AAF0-9888-6FDF-C8B851D242A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

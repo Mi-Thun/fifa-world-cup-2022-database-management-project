@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wc_broadcasting" directorySegmentName="seg_0" id="ABB8A5FF-84D8-ED78-4890-BE04C070A727">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-16 17:15:56 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<sourcePk>67A7BD4B-C4F2-ADDF-14F0-3C98BF471A2B</sourcePk>
+<targetPk>20F5C86A-FA57-CD2F-F7B9-5964F5378738</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69EF9BAD-A38E-363F-1D4D-82EAF6768CD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D23FD70-B4AA-24ED-13C6-A28C834F337D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

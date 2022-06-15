@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wc_award" directorySegmentName="seg_0" id="E68A171A-32FC-5D46-3795-DC04FCC282A7">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-04-18 20:01:31 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<engineerTo>
+<item key="DA3533F9-6EEC-02AC-E706-8B8E01CC48FE" value="true"/>
+</engineerTo>
+<sourcePk>67A7BD4B-C4F2-ADDF-14F0-3C98BF471A2B</sourcePk>
+<targetPk>AD28BB70-529D-7DD8-C493-96826CBDF1A9</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69EF9BAD-A38E-363F-1D4D-82EAF6768CD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4044EBDA-F19D-58A0-1BEC-1494EAE431FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

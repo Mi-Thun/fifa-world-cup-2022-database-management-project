@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C36219E-D69D-08E3-28FD-951C05DDB805" name="sponsorship">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>DD66B577-1528-4F8D-F0C2-847718D4411D</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sponsorship_id" id="3098630E-1A93-3396-048B-999D2D2AB1BD">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>B8E60AFC-CB6A-CF7E-FA86-CFB6727341AD</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sponsorship_name" id="B7C68A31-D546-EA6F-D9C9-1E3F9580F2A1">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>0DA70255-C2E4-28EB-872F-DBC9E12C1EB1</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sponsorship_type" id="57ED5166-7839-ECD2-D5DB-B2770C23C775">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>68EE398E-6FBA-98C3-5482-E06D701C2D0F</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="World_Cup_WorldCup_year" id="CF294EBD-CEC3-4078-AA58-A4C07525342A">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>6DD59858-AA40-2B9A-FD9D-B81B95D1AFB7</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F21F70-2524-9A4D-31A0-C30C5400F6F1" referredColumn="75A70165-55FD-074F-0C39-9A02B2EC4CD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABA5D87C-C9E3-7F89-0026-ECB1DE84702E" name="sponsorship_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>25576BA7-E839-4018-D9CE-A258D0329BEC</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3098630E-1A93-3396-048B-999D2D2AB1BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="276B5317-997D-DB27-9FCD-02407C5F8F1F" name="sponsorship_World_Cup_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>C54A12C0-E6D5-B4E9-1D14-778304BE2DE6</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF294EBD-CEC3-4078-AA58-A4C07525342A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

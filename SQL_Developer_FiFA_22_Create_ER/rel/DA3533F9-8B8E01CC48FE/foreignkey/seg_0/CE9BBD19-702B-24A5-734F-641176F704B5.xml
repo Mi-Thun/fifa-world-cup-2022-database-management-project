@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE9BBD19-702B-24A5-734F-641176F704B5" containerWithKeyObject="3C86323E-B438-AD37-245C-3EED35E5AAB1" localFKIndex="EEA03C31-F8B1-260A-A669-646FBB15713B" name="match_sched_refree_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>AEF16E80-B8BE-C666-0177-69C74E2B2C57</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>refree</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>347AD4E5-0C5D-4998-317A-558520A1E609</referredTableID>
+<keyObject>6108B0DB-0766-7CC9-FAF2-E5BE31C72B76</keyObject>
+<referredKeyID>6108B0DB-0766-7CC9-FAF2-E5BE31C72B76</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>refree_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

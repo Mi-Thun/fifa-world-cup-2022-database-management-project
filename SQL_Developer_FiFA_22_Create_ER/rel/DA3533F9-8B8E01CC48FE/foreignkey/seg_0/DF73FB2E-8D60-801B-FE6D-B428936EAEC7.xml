@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF73FB2E-8D60-801B-FE6D-B428936EAEC7" containerWithKeyObject="840ABAD7-A218-EE5A-85C9-A2983BEAFD40" localFKIndex="080FAF28-9473-D188-DEE3-0DA59F7C6AAF" name="Team_info_dtls_group_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>06C2AF97-A37E-FDEA-D863-7953B4211537</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>group</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58EE0BE6-8CA2-AB87-9E23-B81F04F35B95</referredTableID>
+<keyObject>F059E716-A13B-204F-35C8-F916EA93B609</keyObject>
+<referredKeyID>F059E716-A13B-204F-35C8-F916EA93B609</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>group_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

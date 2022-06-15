@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F87D5723-CBA1-EAFC-A035-6F93D0103518" containerWithKeyObject="3C86323E-B438-AD37-245C-3EED35E5AAB1" localFKIndex="B587D7AC-C6C2-37F1-0741-5363DB73EC62" name="match_sched_Venu_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>64BD9540-0376-9E67-C123-EB5A88514A69</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>Venu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9CC61E85-5EE1-7736-67A0-46F1F9BD92E5</referredTableID>
+<keyObject>013588CB-8F88-BDAF-5A67-6EBB293CAEC3</keyObject>
+<referredKeyID>013588CB-8F88-BDAF-5A67-6EBB293CAEC3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Venu_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EB545A8-1648-0B83-F828-1FFEC8F464A1" name="semi_final_team">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>AC4820B0-A83E-9183-4753-311187D62A30</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="winner_team_id" id="5D1AC51E-97F1-D12E-C267-FCF26CE88D80">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>C57DE45A-A194-FA8F-5FE7-D406B76ACB1C</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="match_type" id="66646F86-94CB-C928-F47A-AB8A739F1106">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>422C21DA-4CC7-6210-F70A-752776D659CE</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="match_sched_match_id" id="E8EDE296-97A4-E603-7F4E-D3E4ACCBECA8">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>D5BB07CD-FBDD-7A25-EEDA-10C672A6C559</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B47F8BF7-CEBD-0065-E17A-76B2725C6C0E" referredColumn="715AB85E-1915-1455-FF79-D1272D7E26DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="905BAFEA-DA7F-CD95-1E14-D2EE43DA173A" name="semi_final_team_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>CF6EEB70-479D-2791-9AED-843C39EE6D05</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1AC51E-97F1-D12E-C267-FCF26CE88D80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7518C321-D721-4E6C-4D4A-DBEBFC5A5F79" name="semi_final_team__IDX">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>35F61BFB-1F26-694B-36BA-0F614637B8C0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E8EDE296-97A4-E603-7F4E-D3E4ACCBECA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5684A1FC-F56B-110B-FDFD-C42FF76982C2" name="semi_final_team_match_sched_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>35F61BFB-1F26-694B-36BA-0F614637B8C0</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8EDE296-97A4-E603-7F4E-D3E4ACCBECA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

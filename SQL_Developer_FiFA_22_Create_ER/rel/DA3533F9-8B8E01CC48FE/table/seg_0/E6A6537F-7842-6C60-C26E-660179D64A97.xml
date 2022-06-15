@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6A6537F-7842-6C60-C26E-660179D64A97" name="Team">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>9A976B7B-6A0B-B908-163C-79065C85996F</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="20A9D3EE-42E9-6FD1-942C-B19EFDCB0521">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>7D35CDE3-8778-0A66-E701-5B54AD03C6DF</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_name" id="39E3F4D4-413E-6FD3-A7D9-A3F7E39CC34C">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>8BD0990D-5BF6-32DA-412C-6145D1477086</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qualified_as" id="4A5637B1-EBAA-AD2C-5F25-C62823607711">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>BA3388D6-1707-E97D-3F68-24C844EF9AD4</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_to_qualified" id="4B717D76-D610-EB91-4E23-78BA8808DB57">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>3A166391-5A98-9216-B3F6-5D663D5DAE88</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="World_Cup_WorldCup_year" id="826E7221-A9ED-3B5C-948B-9FD41A1F4B86">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>2A1909D8-4727-0BEC-6605-72E86F46317D</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844AFA11-6F8B-6F88-54A4-5F4BB6A644E0" referredColumn="75A70165-55FD-074F-0C39-9A02B2EC4CD1"/>
+</associations>
+</Column>
+<Column name="coach_coach_id" id="BD2C88B5-68D8-7BC5-D6E4-B0B6BE7E9AD4">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>BFEC7EA6-1188-90C9-68EC-FADFD67BFBCB</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D3D1241-40D5-79B2-1F69-A032C6AF8F94" referredColumn="4F7A1013-719D-60F0-EDC4-2576299D4E87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA44D6AE-78CC-71BF-D128-8367C7965942" name="Team_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>6A68C858-4E62-1F7C-F59A-65CDF308085F</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A9D3EE-42E9-6FD1-942C-B19EFDCB0521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="292DB4A0-E83A-C8B0-C487-DFDB3210679A" name="Team__IDX">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>95B3A565-00D5-6574-04C7-DF29B0ACFF61</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BD2C88B5-68D8-7BC5-D6E4-B0B6BE7E9AD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91262D59-86E7-0D6E-A529-D13B9472AFEA" name="Team_coach_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>95B3A565-00D5-6574-04C7-DF29B0ACFF61</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD2C88B5-68D8-7BC5-D6E4-B0B6BE7E9AD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A16D29C-492F-87E0-6248-39A3A2BA929C" name="Team_World_Cup_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>9296C28F-8DBF-B604-D14A-5B4289C38DBE</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826E7221-A9ED-3B5C-948B-9FD41A1F4B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

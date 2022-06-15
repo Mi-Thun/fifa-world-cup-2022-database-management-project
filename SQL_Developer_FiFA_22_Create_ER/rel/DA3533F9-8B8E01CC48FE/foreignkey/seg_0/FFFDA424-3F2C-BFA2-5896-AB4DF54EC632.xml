@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFFDA424-3F2C-BFA2-5896-AB4DF54EC632" containerWithKeyObject="58EE0BE6-8CA2-AB87-9E23-B81F04F35B95" localFKIndex="26FA8A66-0D83-CADB-FBC2-9FBA11ABA8A8" name="group_World_Cup_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>1D365F41-F332-72EB-3ABE-F7CC2E488718</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>World_Cup</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8B75116-7729-69DD-736E-9F96034705FA</referredTableID>
+<keyObject>4CF2D94B-0B3E-6A95-8154-AF94717EC1C4</keyObject>
+<referredKeyID>4CF2D94B-0B3E-6A95-8154-AF94717EC1C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>WorldCup_year</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

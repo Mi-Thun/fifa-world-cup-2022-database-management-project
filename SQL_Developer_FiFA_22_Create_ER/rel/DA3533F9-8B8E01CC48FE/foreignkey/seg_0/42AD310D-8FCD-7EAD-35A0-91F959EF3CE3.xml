@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42AD310D-8FCD-7EAD-35A0-91F959EF3CE3" containerWithKeyObject="434C2566-7FD6-86B3-F0B4-C5379D2C40AD" localFKIndex="632395C8-3DCD-3638-6124-36BC8E924C14" name="result_match_stat_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>A0783818-D209-24A2-1EE8-47D07B36320C</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>match_stat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B49F5B4D-A716-B665-DE6C-F2C9BE532743</referredTableID>
+<keyObject>EB7DDB4D-05A5-C34C-E48A-18D9FB018639</keyObject>
+<referredKeyID>EB7DDB4D-05A5-C34C-E48A-18D9FB018639</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>match_stat_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

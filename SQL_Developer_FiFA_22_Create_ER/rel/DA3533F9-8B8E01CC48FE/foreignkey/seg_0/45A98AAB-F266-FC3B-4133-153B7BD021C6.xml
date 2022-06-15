@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45A98AAB-F266-FC3B-4133-153B7BD021C6" containerWithKeyObject="4B3DB515-29AC-93E5-CB38-0E260418A8B4" localFKIndex="F068005E-BFB7-F64B-BA5B-51D968D54E7C" name="final_match_sched_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>A8D51E4B-226A-5029-91CE-C8719168A932</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<referredTableLongName>match_sched</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C86323E-B438-AD37-245C-3EED35E5AAB1</referredTableID>
+<keyObject>0EE2AD12-033F-6CC7-BEC8-5D45555164DF</keyObject>
+<referredKeyID>0EE2AD12-033F-6CC7-BEC8-5D45555164DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>match_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

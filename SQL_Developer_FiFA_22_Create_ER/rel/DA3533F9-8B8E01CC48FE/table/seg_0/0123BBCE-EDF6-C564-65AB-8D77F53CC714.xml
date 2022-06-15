@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0123BBCE-EDF6-C564-65AB-8D77F53CC714" name="round_of_16">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>EF4C99B3-1A82-2A7D-3AF3-FB40D249736D</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="16_seq_number" id="DDAB5316-2417-B9A5-70DD-853D9FC9FB34">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>DA44C042-EBD4-D580-1819-412B2BDAA374</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="winner_team_id" id="B4856E16-B4C2-5643-F741-1641D26E8DBE">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>12550B16-11CE-3B0B-EFFB-F2BFA4C48B01</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="runner_team_id" id="8EB0D707-66AD-2C77-1522-A702A472D385">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>E9FEAEB3-626A-B004-E655-02196FDCBC91</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="group_group_id" id="743B55C0-2236-DB40-6473-BC2032E0D341">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>96ECFAB6-FDF8-4AA4-0EE4-FE97A4B473D8</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91E99014-DC98-E404-9CF5-99CF7FE9B797" referredColumn="1510824C-3066-25AB-D52B-54DA14836017"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDA54F0C-8D76-00B9-9E56-31C4885B7D21" name="round_of_16_PK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>E0363259-3972-8AE2-15C0-7F9B52548C27</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDAB5316-2417-B9A5-70DD-853D9FC9FB34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7A09EF5-736D-98EB-04FB-C999DBFCF7D9" name="round_of_16__IDX">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B2DE7943-16D7-7291-EAD8-F783360FC33C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="743B55C0-2236-DB40-6473-BC2032E0D341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E88C93A-D937-16FC-03BE-A3F26BF2394D" name="round_of_16_group_FK">
+<createdBy>Lucifer</createdBy>
+<createdTime>2022-05-20 16:40:35 UTC</createdTime>
+<generatorID>B2DE7943-16D7-7291-EAD8-F783360FC33C</generatorID>
+<ownerDesignName>project_01</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="743B55C0-2236-DB40-6473-BC2032E0D341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
