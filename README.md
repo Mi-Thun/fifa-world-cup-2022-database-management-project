@@ -10,3 +10,5 @@
     > - password: kabir123
    
 -->
+###### Other
+> [Project-Report.pdf](https://drive.google.com/file/d/1TfrnMljUYhL6riPwNF6kYltUlsynluG6/view?usp=sharing)
